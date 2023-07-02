@@ -1,0 +1,417 @@
+body {
+    background-color: 	#F5F5F5;
+    color: #777;
+    font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+p {
+    line-height: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+h1 {
+    font-family: 'Crete Round', serif;
+    font-weight: bold;
+    color: #444;
+    font-size: 2.0rem;
+    margin-bottom: 1rem;
+}
+h2 {
+    font-weight: 300;
+    color: #444;
+    font-size: 3.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+h3 {
+    font-size: 1.8rem;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+h4 {
+    font-size: 1.5rem;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1.25rem;
+}
+h5 {
+    font-size: 0.9rem;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    color: #444;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+}
+a:hover {
+    color: #02b8dd;
+}
+strong {
+    font-weight: bold;
+}
+small {
+    font-size: 0.8rem;
+    color: #777;
+    font-style: italic;
+}
+.clear {
+    clear: both;
+}
+.wrapper {
+    margin: 0 auto;
+    padding: 0 0.1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/*This is for header */
+
+header {
+    height: 15%;
+}
+header h1 {
+    float: left;
+    margin-top: 2.5%;
+}
+header h1 .color {
+    color: #02b8dd;
+}
+header nav {
+    float: right;
+}
+header nav ul li {
+    float: left;
+    display: inline-block;
+    margin-top: 3.1rem;
+}
+header nav ul li a {
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin-right: 1.25rem;
+}
+header nav ul li a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: black;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  header nav ul li a:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+/* #header a:hover{
+    border-style: solid;
+    border-width: 0 0.1rem 0.2rem 0.1rem;
+    border-color: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+} */
+/*Image over Text*/
+#hero-image {
+    height: 50%;
+    padding-top: 3px;
+    box-sizing: border-box;
+    /* background: #e8eced url('../images/hero.jpg') no-repeat center; */
+}
+#hero-image img{
+    position: relative;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 100%;
+}
+#hero-image h2 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.button-1 {
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    display: block;
+    text-align: center;
+    background: #444;
+    border-radius: 3px;
+    color: #fff;
+    width: 11.25rem;
+    height: 3.1rem;
+    font-size: 1.25rem;
+    line-height: 3.125rem;
+    margin: 0 auto;
+}
+.button-1:hover {
+    background-color: #02b8dd;
+    color: #fff;
+}
+ /*Features css*/
+
+#features ul {
+    margin-top: 1%;
+}
+#features ul li {
+    width: 19%;
+    padding-top: 3%;
+    float: left;
+    margin-right: 1%;
+    text-align: center;
+}
+.feature-1{
+    margin-top: 1.9%;
+}
+.feature-5{
+    margin-top: 0.6%;
+}
+.f1, .f2 , .f3 , .f4 , .f5{
+    border: none;
+    border-radius: 9px;
+    background-color: #ffcba4;
+}
+.f1:hover , .f2:hover , .f3:hover , .f4:hover , .f5:hover{
+    border: solid;
+    border-width: 0.01rem 0;
+    border-color: #cc313d;
+    background-color: #f7c5cc;
+}
+/* #features ul li.feature-1 {
+    background: url('../images/features-icon-1.png') no-repeat top center;
+}
+#features ul li.feature-2 {
+    background: url('../images/features-icon-2.png') no-repeat top center;
+}
+#features ul li.feature-3 {
+    background: url('../images/features-icon-3.png') no-repeat top center;
+}
+#features ul li.feature-4 {
+    background: url('../images/features-icon-3.png') no-repeat top center;
+}
+#features ul li.feature-5 {
+    background: url('../images/rainy.png') no-repeat top center;
+} */
+
+/*Footer css*/
+
+footer {
+    margin-top: 1%;
+    padding: 1rem 0;
+    background-color: #E9EEF4;
+}
+
+#footer-links ul {
+    margin: 0;
+    margin-top:0 ;
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+/* #footer-links ul {
+    width: 150px;
+    float: left;
+    margin-left: 20px;
+} */
+/* #footer-link ul{
+    min-width: 18%;
+} */
+#footer-links li{
+    display: inline-block;
+    /* padding: 0 0.5rem; */
+    /* min-width: 12rem; */
+    text-align: center;
+    padding: 0 7%;
+}
+#footer-links a:hover{
+    text-shadow: 0 0 0.5rem #f3f6bd
+}
+#footer-info {
+    font-weight: 300;
+    text-align: center;
+    margin-top: 5%;
+}
+#footer-info a{
+    text-transform: none;
+}
+#footer-info a:hover{
+    color: #ffcba4;
+}
+/*Mobile view */
+@media (max-width: 480px) {
+    header nav {
+        margin: 0;
+        padding: 0;
+        font-size: 10px;
+        margin-bottom: 2%;
+    }
+    /*Text Over Image*/
+    #hero-image img{
+        width: 100%;
+    }
+    #hero-image h2 {
+        margin-top: 3%;
+        padding-top: 0;
+        font-size: 10px;
+        text-align: center;
+        position: absolute;
+        margin-bottom: 12%;
+        margin-bottom: 0;
+        top: 20%;
+        left: 50%;
+    }
+    .button-1 {
+        position: absolute;
+        text-align: center;
+        display: inline-block;
+        width: 40px;
+        height: 10px;
+        font-size: 6px;
+        margin-right: 100%;
+        line-height: 6px;
+        top: 23%;
+    }
+    /*Features */
+    #features ul {
+        margin: 0;
+    }
+    #features ul li {
+        width: 100%;
+        padding-top: 8%;
+        /* margin: 80px 80px; */
+        text-align: center;
+    }
+}
+ /*for galaxy fold*/
+ @media (max-width: 300px) {
+    header nav {
+        margin: 0;
+        padding: 0;
+        font-size: 10px;
+        margin-bottom: 2%;
+    }
+    /*Text Over Image*/
+    #hero-image img{
+        width: 100%;
+    }
+    #hero-image h2 {
+        margin-top: 8%;
+        padding-top: 0;
+        font-size: 10px;
+        text-align: center;
+        position: absolute;
+        margin-bottom: 12%;
+        margin-bottom: 0;
+        top: 20%;
+        left: 50%;
+    }
+    .button-1 {
+        position: absolute;
+        text-align: center;
+        display: inline-block;
+        width: 40px;
+        height: 10px;
+        font-size: 6px;
+        margin-right: 100%;
+        line-height: 6px;
+        top: 27%;
+    }
+    /*Features */
+    #features ul {
+        margin: 0;
+    }
+    #features ul li {
+        width: 100%;
+        padding-top: 8%;
+        /* margin: 80px 80px; */
+        text-align: center;
+    }
+} 
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    /*Text Over Image*/
+    #hero-image img{
+        width: 100%;
+    }
+    #hero-image h2 {
+        margin-top: 0;
+        padding-top: 0;
+        font-size: 25px;
+        text-align: center;
+        position: absolute;
+        margin-bottom: 12%;
+        margin-bottom: 0;
+        top: 20%;
+        left: 50%;
+    }
+    .button-1 {
+        position: absolute;
+        text-align: center;
+        display: block;
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+        margin-right: 100%;
+        top: 25%;
+    }
+    /*Features */
+    #features ul {
+        margin: 0;
+    }
+    #features ul li {
+        width: 100%;
+        padding-top: 8%;
+        /* margin: 80px 80px; */
+        text-align: center;
+    }
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    /*Text Over Image*/
+    #hero-image img{
+        width: 100%;
+    }
+    #hero-image h2 {
+        margin-top: 0;
+        padding-top: 0;
+        font-size: 25px;
+        text-align: center;
+        position: absolute;
+        margin-bottom: 12%;
+        margin-bottom: 0;
+        top: 20%;
+        left: 50%;
+    }
+    .button-1 {
+        position: absolute;
+        text-align: center;
+        display: block;
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+        margin-right: 100%;
+        top: 25%;
+    }
+    /*Features */
+    #features ul {
+        margin: 0;
+    }
+    #features ul li {
+        width: 100%;
+        padding-top: 8%;
+        /* margin: 80px 80px; */
+        text-align: center;
+    }
+}

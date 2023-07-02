@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+#credit-text{
+    font-size: xx-large;
+    font-family: 'Asap', sans-serif;
+}
+#button{
+    border: none;
+    color: white;
+    background-color: yellowgreen;
+    text-align: center;
+    width: max-content;
+    height: 10%;
+    font-size: 18px;
+    margin-left: 47.8%;
+    margin-right: 40%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    height: max-content;
+}
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  .card button:hover, a:hover {
+    opacity: 0.7;
+  }
+  .email-send{
+    color: white;
+    background-color: #000;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    text-align: center;
+    cursor: pointer;
+    width: 95%;
+    font-size: 18px;
+  }
